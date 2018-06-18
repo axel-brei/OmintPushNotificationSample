@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical">
+                <TextView
+                    android:id="@+id/omntNotificationRecordatorio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/TextAppearance.Compat.Notification.Line2"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:textColor="#000"
+                    android:text="¡No olvides que tenés un turno! "
+                    />
+
+
+                <TextView
+                    android:id="@+id/omintNotificationCentroMedico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:layout_below="@id/omntNotificationRecordatorio"
+                    />
+
+                <TextView
+                    android:id="@+id/omintNotificationHorario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/TextAppearance.Compat.Notification.Line2"
+                    android:textSize="12sp"
+                    android:textStyle="normal"
+                    android:layout_below="@id/omintNotificationCentroMedico"
+                    />
+
+</RelativeLayout>
